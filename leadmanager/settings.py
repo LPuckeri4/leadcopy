@@ -31,13 +31,13 @@ ALLOWED_HOSTS = [ 'leadcopyme23.herokuapp.com', 'localhost']
 # Application definition
 
 INSTALLED_APPS = [
+     'whitenoise.runserver_nostatic',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-     'whitenoise.runserver_nostatic',
     'leads',
     'rest_framework',
     'frontend',
